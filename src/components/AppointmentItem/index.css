@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.list-item {
+  width: 90%;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.start-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-img {
+  height: 15px;
+  width: 15px;
+}
+
+.head {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 20px;
+}
+.para {
+  color: #b5b7c4;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 30vw;
+  }
+}
